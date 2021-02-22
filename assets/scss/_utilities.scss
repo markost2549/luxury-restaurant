@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Sintony&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+$primary-color: #fea100;
+$secoundary-color: #fe4c8d;
+$primary-font: 'Sintony', sans-serif;
+$secoundary-font: 'Playfair Display', serif;
+
+* {
+  box-sizing: border-box;
+  padding-left: 0;
+  margin: 0;
+}
+
+body {
+  font-family: $primary-font;
+  line-height: 1.4;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
