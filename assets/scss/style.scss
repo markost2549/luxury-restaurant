@@ -5,9 +5,11 @@
 
   .links {
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 100%;
+    color: #8e9198;
+    font-family: utilities.$primary-font;
+    line-height: 1.7;
+
     h2 {
       color: white;
       font-family: utilities.$secoundary-font;
@@ -15,6 +17,44 @@
     display: flex;
 
     .navigation {
+      margin-right: 10rem;
+      li {
+        a {
+          color: #8e9198;
+          font-family: utilities.$primary-font;
+        }
+      }
+    }
+
+    .open-hours {
+      div {
+        border-bottom: 1px solid white;
+        font-family: utilities.$secoundary-font;
+      }
+    }
+  }
+
+  .copyright {
+    .copy {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: white;
+
+      &::before,
+      &::after {
+        content: '';
+        flex: 1;
+        border-bottom: 1px solid #8e9198;
+      }
+
+      &:not(:empty)::before {
+        margin-right: 0.25em;
+      }
+
+      &:not(:empty)::after {
+        margin-left: 0.25em;
+      }
     }
   }
 }
