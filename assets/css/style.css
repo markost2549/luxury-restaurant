@@ -19,3 +19,14 @@ ul {
 #footer {
   background-color: #383743;
 }
+#footer .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+#footer .links h2 {
+  color: white;
+  font-family: "Playfair Display", serif;
+}

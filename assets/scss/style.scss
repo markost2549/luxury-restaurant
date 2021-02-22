@@ -2,4 +2,19 @@
 
 #footer {
   background-color: #383743;
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    h2 {
+      color: white;
+      font-family: utilities.$secoundary-font;
+    }
+    display: flex;
+
+    .navigation {
+    }
+  }
 }
