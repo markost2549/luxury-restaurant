@@ -11,3 +11,11 @@ body {
   line-height: 1.4;
   color: #000;
 }
+
+ul {
+  list-style: none;
+}
+
+#footer {
+  background-color: #383743;
+}
