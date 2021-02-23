@@ -36,10 +36,59 @@
     }
 
     .newsletter {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
       flex: 1;
+
+      form {
+        input {
+          padding: 0.8rem;
+          color: #adb2b7;
+          border-radius: 4px;
+          background-color: #373844;
+          border: 1px solid #52535e;
+
+          &:focus {
+            outline: none;
+            border: 2px solid utilities.$primary-color;
+          }
+        }
+
+        button {
+          padding: 1rem;
+          border: none;
+          border-radius: 5px;
+          color: white;
+          background-color: utilities.$primary-color;
+
+          &:hover {
+            background: darken(utilities.$primary-color, 10%);
+          }
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
       .social {
         display: flex;
-        justify-content: space-between;
+        margin-top: 1rem;
+        a {
+          color: white;
+          .fb-background {
+            color: #444b7c;
+          }
+          .tw-background {
+            color: #6784b8;
+          }
+          .ye-background {
+            color: #c11419;
+          }
+          .gp-background {
+            color: #dd4b39;
+          }
+        }
       }
     }
 
@@ -49,8 +98,9 @@
         li {
           display: flex;
           justify-content: space-between;
-          border-bottom: 1px solid #8e9198;
+          border-bottom: 1px solid #45444e;
           font-family: utilities.$secoundary-font;
+          padding: 0.5rem 0;
 
           .days {
             font-style: italic;
