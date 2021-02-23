@@ -63,47 +63,111 @@
 }
 
 #footer {
-  background-color: #383743;
+  background-color: #373844;
+  color: #adb2b7;
 
   .links {
     display: flex;
     justify-content: center;
-    color: #8e9198;
     font-family: utilities.$primary-font;
-    line-height: 1.7;
+    // line-height: 1.7;
     margin: 5rem 0;
+
+    & > div {
+      margin: 0 2rem;
+    }
 
     h2 {
       color: white;
       font-family: utilities.$secoundary-font;
+      font-weight: 700;
       margin-bottom: 1.5rem;
+      font-size: 24px;
     }
     display: flex;
 
     .navigation {
       flex: 1;
       li {
+        line-height: 2.1;
         a {
-          color: #8e9198;
+          color: #adb2b7;
           font-family: utilities.$primary-font;
         }
       }
     }
 
     .newsletter {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
       flex: 1;
+
+      form {
+        input {
+          padding: 0.8rem;
+          color: #adb2b7;
+          border-radius: 4px;
+          background-color: #373844;
+          border: 1px solid #52535e;
+          margin-right: 0.5rem;
+
+          &:focus {
+            outline: none;
+            border: 2px solid utilities.$primary-color;
+          }
+        }
+
+        button {
+          padding: 1rem;
+          border: none;
+          border-radius: 5px;
+          color: white;
+          background-color: utilities.$primary-color;
+
+          &:hover {
+            background: darken(utilities.$primary-color, 10%);
+          }
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+      .social {
+        display: flex;
+        margin-top: 1rem;
+        a {
+          color: white;
+          .fb-background {
+            color: #444b7c;
+          }
+          .tw-background {
+            color: #6784b8;
+          }
+          .ye-background {
+            color: #c11419;
+          }
+          .gp-background {
+            color: #dd4b39;
+          }
+        }
+      }
     }
 
     .open-hours {
       flex: 1;
-      h2 {
-      }
       ul {
         li {
           display: flex;
           justify-content: space-between;
-          border-bottom: 1px solid #8e9198;
+          border-bottom: 1px solid #45444e;
           font-family: utilities.$secoundary-font;
+          padding: 0.5rem 0;
+
+          .days {
+            font-style: italic;
+          }
         }
       }
     }
