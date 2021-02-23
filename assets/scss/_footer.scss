@@ -1,0 +1,132 @@
+@use 'utilities';
+
+#footer {
+  background-color: #373844;
+  color: #adb2b7;
+
+  .links {
+    display: flex;
+    font-family: utilities.$primary-font;
+    padding: 5rem 0;
+
+    h2 {
+      color: white;
+      font-family: utilities.$secoundary-font;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      font-size: 24px;
+    }
+
+    .navigation {
+      flex: 1;
+      li {
+        line-height: 2.1;
+        a {
+          color: #adb2b7;
+          font-family: utilities.$primary-font;
+        }
+      }
+    }
+
+    .newsletter {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      flex: 1;
+
+      form {
+        input {
+          padding: 0.8rem;
+          color: #adb2b7;
+          border-radius: 4px;
+          background-color: #373844;
+          border: 1px solid #52535e;
+          margin-right: 0.5rem;
+
+          &:focus {
+            outline: none;
+            border: 2px solid utilities.$primary-color;
+          }
+        }
+
+        button {
+          padding: 1rem;
+          border: none;
+          border-radius: 5px;
+          color: white;
+          background-color: utilities.$primary-color;
+
+          &:hover {
+            background: darken(utilities.$primary-color, 10%);
+          }
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+      .social {
+        display: flex;
+        margin-top: 1rem;
+        a {
+          color: white;
+          .fb-background {
+            color: #444b7c;
+          }
+          .tw-background {
+            color: #6784b8;
+          }
+          .ye-background {
+            color: #c11419;
+          }
+          .gp-background {
+            color: #dd4b39;
+          }
+        }
+      }
+    }
+
+    .open-hours {
+      flex: 1;
+      ul {
+        li {
+          display: flex;
+          justify-content: space-between;
+          border-bottom: 1px solid #45444e;
+          font-family: utilities.$secoundary-font;
+          padding: 0.5rem 0;
+
+          .days {
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }
+
+  .copyright {
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    .copy {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #8e9198;
+
+      &::before,
+      &::after {
+        content: '';
+        flex: 1;
+        border-bottom: 1px solid #45444e;
+      }
+
+      &:not(:empty)::before {
+        margin-right: 0.25em;
+      }
+
+      &:not(:empty)::after {
+        margin-left: 0.25em;
+      }
+    }
+  }
+}
