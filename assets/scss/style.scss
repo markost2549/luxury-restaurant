@@ -41,7 +41,7 @@
       justify-content: center;
 
       &:hover {
-        background-color: #ffb22c;
+        background: lighten(utilities.$primary-color, 10%);
       }
 
       a {
