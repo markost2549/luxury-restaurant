@@ -4,7 +4,6 @@
   "description": "HTML/SASS Theme made from PSD taken from \u0016https://symu.co/freebies/templates-4/luxury-psd-template/",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start:sass": "npx sass assets/scss/:assets/css/ --no-source-map --watch"
   },
   "keywords": [
