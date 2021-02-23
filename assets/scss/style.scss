@@ -1,4 +1,5 @@
 @use 'utilities';
+@use 'clients';
 
 #header {
   position: sticky;
@@ -190,14 +191,8 @@
 
   .links {
     display: flex;
-    justify-content: center;
     font-family: utilities.$primary-font;
-    // line-height: 1.7;
-    margin: 5rem 0;
-
-    & > div {
-      margin: 0 2rem;
-    }
+    padding: 5rem 0;
 
     h2 {
       color: white;
@@ -206,7 +201,6 @@
       margin-bottom: 1.5rem;
       font-size: 24px;
     }
-    display: flex;
 
     .navigation {
       flex: 1;
