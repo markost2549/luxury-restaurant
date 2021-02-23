@@ -1,6 +1,190 @@
 @use 'utilities';
 @use 'clients';
 
+#header {
+  position: sticky;
+  background-color: #fff;
+  top: 0;
+  padding: 1rem;
+
+  #main-navbar {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    align-items: center;
+
+    li {
+      &:nth-child(1) {
+        margin-right: auto;
+      }
+
+      a {
+        color: #2c465a;
+        font-family: utilities.$primary-font;
+        font-weight: bold;
+        padding: 0 1.2rem;
+
+        &:hover {
+          color: utilities.$primary-color;
+        }
+      }
+
+      .active {
+        color: utilities.$primary-color;
+      }
+    }
+
+    .nav-button {
+      background-color: utilities.$primary-color;
+      width: 10rem;
+      height: 2.8rem;
+      border-radius: 3%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        background: lighten(utilities.$primary-color, 10%);
+      }
+
+      a {
+        width: 96%;
+        height: 88%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 3%;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+#delivery {
+  background-color: #eee;
+  padding: 2rem;
+
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .box {
+    width: 250px;
+    margin: 5px;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: space-between;
+
+    h3 {
+      color: utilities.$primary-color;
+    }
+
+    .circle {
+      height: 50px;
+      width: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background-color: utilities.$primary-color;
+
+      i {
+        height: 42px;
+        width: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #fff;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .border-right {
+    border-right: 1px solid #cccccc;
+  }
+
+  .phone {
+    font-family: utilities.$secoundary-font;
+    font-size: 2.5rem;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+#about {
+  .container {
+    display: flex;
+
+    .about-restaurant {
+      flex: 1;
+      padding-top: 80px;
+
+      h2 {
+        font-family: utilities.$secoundary-font;
+        font-size: 34px;
+      }
+
+      p {
+        color: #2c465a;
+        line-height: 2;
+        margin: 20px 0 30px 0;
+      }
+
+      button {
+        padding: 1rem;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background-color: utilities.$primary-color;
+        text-transform: uppercase;
+
+        &:hover {
+          background: darken(utilities.$primary-color, 10%);
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    .photos {
+      flex: 1;
+      display: flex;
+
+      .left {
+        padding: 100px 5px 40px 40px;
+      }
+
+      .right {
+        padding: 60px 0 0 5px;
+      }
+
+      .photo {
+        margin: 10px 0;
+        width: 270px;
+        height: 150px;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
 #footer {
   background-color: #373844;
   color: #adb2b7;
@@ -116,7 +300,7 @@
 
       &::before,
       &::after {
-        content: '';
+        content: "";
         flex: 1;
         border-bottom: 1px solid #45444e;
       }
