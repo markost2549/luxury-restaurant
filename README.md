@@ -8,9 +8,9 @@ https://lux-restaurant.netlify.app/
 
 # Image credits:
 
-_Photo by Eiliv-Sonas Aceron_
+_Photo by Victoria Shes_
 
-- https://unsplash.com/photos/mnpp17AFFVA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+- https://unsplash.com/photos/wSh0Exrb62g?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 
 # About-section:
 
