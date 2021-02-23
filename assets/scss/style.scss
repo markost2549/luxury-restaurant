@@ -62,6 +62,63 @@
   }
 }
 
+#delivery {
+  background-color: #eee;
+  padding: 2rem;
+
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .box {
+    width: 250px;
+    margin: 5px;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: space-between;
+
+    h3 {
+      color: utilities.$primary-color;
+    }
+
+    .circle {
+      height: 50px;
+      width: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background-color: utilities.$primary-color;
+
+      i {
+        height: 42px;
+        width: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #fff;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .border-right {
+    border-right: 1px solid #cccccc;
+  }
+
+  .phone {
+    font-family: utilities.$secoundary-font;
+    font-size: 2.5rem;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
 #footer {
   background-color: #373844;
   color: #adb2b7;
