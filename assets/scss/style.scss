@@ -1,45 +1,5 @@
 @use 'utilities';
-
-#clients {
-  .reviews {
-    background: url('/assets/images/client_background.jpg') no-repeat center
-      center/cover;
-  }
-
-  .open-hours {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 3rem 0;
-
-    h1 {
-      font-size: 2rem;
-      font-family: utilities.$secoundary-font;
-      font-weight: bold;
-    }
-
-    h2 {
-      font-weight: 400;
-      font-style: italic;
-      font-family: utilities.$secoundary-font;
-      color: #3738449c;
-    }
-
-    .wrapper {
-      position: relative;
-      width: 200px;
-
-      .image {
-        width: 170px;
-        height: 170px;
-        border-radius: 50%;
-        background: url('/assets/images/dish.jpg') no-repeat center/cover;
-        position: absolute;
-        top: 0;
-      }
-    }
-  }
-}
+@use 'clients';
 
 #footer {
   background-color: #373844;
