@@ -18,3 +18,17 @@ _Photo by Victoria Shes_
 - https://www.pexels.com/photo/sliced-vegetable-and-cooked-food-on-white-ceramic-plate-1234535/
 - https://www.pexels.com/photo/people-drinking-liquor-and-talking-on-dining-table-close-up-photo-696218/
 - https://www.pexels.com/photo/woman-drinking-wine-761854/
+
+# Specials-section:
+
+_Photo by Nadezhda Filatova_
+
+- https://unsplash.com/photos/frTrM7Gdkho
+
+_Photo by Kelvin T_
+
+- https://unsplash.com/photos/AcA8moIiD3g
+
+_Photo by Sam Moqadam_
+
+- https://unsplash.com/photos/VpOpy6QrDrs
