@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 $primary-color: #fea100;
-$secoundary-color: #fe4c8d;
+$secondary-color: #fe4c8d;
 $primary-font: 'Sintony', sans-serif;
-$secoundary-font: 'Playfair Display', serif;
+$secondary-font: 'Playfair Display', serif;
 
 * {
   box-sizing: border-box;
@@ -39,13 +39,13 @@ a {
 
 .price {
   color: $primary-color;
-  font-family: $secoundary-font;
+  font-family: $secondary-font;
   font-size: 1.6rem;
   font-weight: 600;
 }
 
 .lg-heading {
   font-size: 2rem;
-  font-family: $secoundary-font;
+  font-family: $secondary-font;
   margin-bottom: 1.2rem;
 }
