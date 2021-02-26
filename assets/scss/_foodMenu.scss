@@ -1,0 +1,53 @@
+@use 'utilities';
+
+#food-menu {
+  text-align: center;
+
+  .table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px dotted #3738449c;
+    border-bottom: 1px dotted #3738449c;
+
+    .columns {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      min-width: 50%;
+      padding: 0 1rem;
+      .rows {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 1rem 0;
+
+        img {
+          width: 90px;
+          height: 60px;
+          margin-right: 1rem;
+        }
+
+        .desc {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          line-height: 1.6;
+
+          & > div {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+          }
+
+          p {
+            color: #5c6369;
+          }
+        }
+      }
+    }
+  }
+}
