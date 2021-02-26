@@ -3,12 +3,15 @@
 #food-menu {
   text-align: center;
 
+  margin-bottom: 2rem;
+
   .table {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border-top: 1px dotted #3738449c;
-    border-bottom: 1px dotted #3738449c;
+    // border-bottom: 1px dotted #3738449c;
+    margin-bottom: 2rem;
 
     .columns {
       display: flex;
