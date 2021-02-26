@@ -36,3 +36,16 @@ a {
 .text-primary {
   color: $primary-color;
 }
+
+.price {
+  color: $primary-color;
+  font-family: $secoundary-font;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.lg-heading {
+  font-size: 2rem;
+  font-family: $secoundary-font;
+  margin-bottom: 1.2rem;
+}
