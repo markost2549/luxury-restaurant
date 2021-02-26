@@ -27,6 +27,35 @@ a {
   text-decoration: none;
 }
 
+.btn {
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  text-transform: uppercase;
+
+  &-primary {
+    color: white;
+    background-color: $primary-color;
+
+    &:hover {
+      background: darken($primary-color, 10%);
+    }
+  }
+  &-secondary {
+    color: white;
+    background-color: $secondary-color;
+
+    &:hover {
+      background: darken($secondary-color, 10%);
+    }
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
 .container {
   max-width: 1200px;
   margin: auto;

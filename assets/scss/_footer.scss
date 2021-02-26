@@ -48,22 +48,6 @@
             border: 2px solid utilities.$primary-color;
           }
         }
-
-        button {
-          padding: 1rem;
-          border: none;
-          border-radius: 5px;
-          color: white;
-          background-color: utilities.$primary-color;
-
-          &:hover {
-            background: darken(utilities.$primary-color, 10%);
-          }
-
-          &:focus {
-            outline: none;
-          }
-        }
       }
       .social {
         display: flex;
