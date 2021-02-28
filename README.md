@@ -8,9 +8,17 @@ https://lux-restaurant.netlify.app/
 
 # Image credits:
 
-_Photo by Victoria Shes_
+- https://unsplash.com/photos/wSh0Exrb62g
+  _Photo by Victoria Shes_
 
-- https://unsplash.com/photos/wSh0Exrb62g?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+- https://unsplash.com/photos/gM8igOIP5MA
+  _Photo by Annie Spratt_
+
+- https://unsplash.com/photos/tkfRSPt-jdk
+  _Photo by Martin Widenka_
+
+- https://unsplash.com/photos/ND3edEmzcdQ
+  _Photo by khloe arledge_
 
 # About-section:
 
