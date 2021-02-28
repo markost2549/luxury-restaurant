@@ -20,6 +20,9 @@ https://lux-restaurant.netlify.app/
 - https://unsplash.com/photos/ND3edEmzcdQ
   _Photo by khloe arledge_
 
+- https://unsplash.com/photos/ykThMylLsbY
+  _Photo by Baiq Daling_
+
 # About-section:
 
 - https://www.pexels.com/photo/plate-of-sashimi-628776/
