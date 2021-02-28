@@ -1,4 +1,12 @@
-let splide = new Splide('.splide', { type: 'loop' }).mount();
+let splide = new Splide('.splide', {
+  type: 'loop',
+  pagination: true,
+  arrowPath:
+    'm15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z" stroke="white" stroke-width="1" fill="white"',
+  classes: {
+    arrow: 'splide__arrow arrow',
+  },
+}).mount();
 
 function animate() {
   let topAni = document.getElementsByClassName('a-top');

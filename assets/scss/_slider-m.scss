@@ -44,6 +44,15 @@
   }
 }
 
+.arrow {
+  background-color: transparent !important;
+  font-size: 2rem;
+
+  svg {
+    color: white;
+  }
+}
+
 .hide {
   opacity: 0%;
   // animation: fadeIn 3s ease-out;
