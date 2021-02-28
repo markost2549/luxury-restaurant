@@ -1,0 +1,182 @@
+@use 'utilities';
+
+#hero-slider {
+  background: url("/assets/images/black-bg.png") no-repeat center center/cover;
+  position: relative;
+  margin: auto;
+
+  .slide {
+    display: none;
+  }
+
+  .slide.current {
+    display: inline;
+  }
+
+  .flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .text-box {
+      margin-left: 200px;
+
+      h2,
+      h3 {
+        position: relative;
+        color: #fff;
+        font-family: utilities.$secondary-font;
+      }
+
+      h2 {
+        font-size: 3.5rem;
+      }
+
+      h3 {
+        font-size: 2.5rem;
+
+        span {
+          color: utilities.$primary-color;
+        }
+      }
+
+      button {
+        margin: 30px 0;
+        position: relative;
+      }
+    }
+
+    .show-text h2,
+    .show-text h3 {
+      animation: showText 0.5s ease-in 0.5s forwards;
+      visibility: hidden;
+    }
+
+    @keyframes showText {
+      from {
+        top: -50px;
+        opacity: 0.1;
+      }
+      to {
+        top: 0px;
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+
+    .show-button {
+      animation: showButton 0.5s ease-in 0.5s forwards;
+      visibility: hidden;
+    }
+
+    @keyframes showButton {
+      from {
+        bottom: -50px;
+        opacity: 0.1;
+      }
+      to {
+        bottom: 0px;
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+
+    .photo {
+      margin: 50px 100px;
+      height: 500px;
+      width: 600px;
+      overflow: hidden;
+      position: relative;
+
+      img {
+        height: 100%;
+      }
+    }
+
+    .show-photo {
+      animation: showPhoto 1s linear 1.2s forwards;
+      visibility: hidden;
+    }
+
+    @keyframes showPhoto {
+      from {
+        right: -100px;
+        opacity: 0.1;
+      }
+      to {
+        right: 0px;
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+
+  #prev,
+  #next {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -60px;
+    padding: 16px;
+    color: #fff;
+    font-size: 60px;
+    // transition: 0.6s ease;
+    user-select: none;
+  }
+
+  #next {
+    right: 0;
+  }
+
+  #prev:hover,
+  #next:hover {
+    color: #bbb;
+  }
+
+  .dots {
+    text-align: center;
+    padding: 20px;
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 3px;
+      background-color: #666;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active-dot,
+    .dot:hover {
+      background-color: #bbb;
+    }
+  }
+
+  .explore-logo {
+    position: absolute;
+    height: 237px;
+    width: 204px;
+    background-image: url("../images/explore-food-menu.png");
+    left: 300px;
+    bottom: -80px;
+    text-align: center;
+    padding-top: 100px;
+
+    h3 {
+      color: #fff;
+      font-family: utilities.$secondary-font;
+      font-weight: normal;
+      font-size: 1.6rem;
+    }
+  }
+}
+
+#hero-slider:hover {
+  #prev,
+  #next {
+    display: inline;
+  }
+}
