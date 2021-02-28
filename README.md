@@ -17,11 +17,11 @@ https://lux-restaurant.netlify.app/
 - https://unsplash.com/photos/tkfRSPt-jdk
   _Photo by Martin Widenka_
 
-- https://unsplash.com/photos/ND3edEmzcdQ
-  _Photo by khloe arledge_
-
 - https://unsplash.com/photos/ykThMylLsbY
   _Photo by Baiq Daling_
+
+- https://unsplash.com/photos/LOUhsrJbs0w
+  _Photo by Sam Moqadam_
 
 # About-section:
 
