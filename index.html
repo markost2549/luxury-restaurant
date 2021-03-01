@@ -21,7 +21,7 @@
   <body>
     <section id="header">
       <div class="container">
-        <ul id="main-navbar">
+        <ul class="navbar" id="main-navbar">
           <li>
             <a href="#"><img src="./assets/images/logo.png" alt="logo" /></a>
           </li>
@@ -39,18 +39,20 @@
           </li>
           <li><a href="#">Blog</a></li>
           <li><a href="#">Contact Us</a></li>
-          <li class="nav-button">
-            <a href="#"
-              ><span><i class="fas fa-utensils"></i></span> Book a table</a
-            >
+          <li>
+            <div class="nav-button">
+              <a href="#"
+                ><span><i class="fas fa-utensils"></i></span> Book a table</a>
+            </div>
           </li>
+          <li class="icon"><a href="javascript:void(0);" class="icon" onclick="toggleMenu()">&#9776;</a></li>
         </ul>
       </div>
     </section>
     <section id="hero-slider"></section>
     <section id="delivery">
-      <div class="container flex-row">
-        <div class="box border-right">
+      <div class="container flex">
+        <div class="box border">
           <i class="far fa-comments fa-3x"></i>
           <div>
             <h4>Read</h4>
@@ -60,7 +62,7 @@
             <i class="fa fa-angle-right fa-lg"></i>
           </div>
         </div>
-        <div class="box border-right">
+        <div class="box border">
           <i class="fa fa-phone-volume fa-3x"></i>
           <div>
             <h4>Call us now for</h4>
@@ -423,5 +425,6 @@
         </div>
       </div>
     </section>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
