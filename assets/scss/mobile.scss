@@ -23,5 +23,44 @@
   display: none;
 }
 #footer {
-  display: none;
+  // display: none;
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .navigation {
+      margin-bottom: 2rem;
+      h2 {
+        text-align: center;
+      }
+
+      ul {
+        column-count: 3;
+      }
+    }
+
+    .newsletter {
+      align-items: center;
+      margin-bottom: 2rem;
+      width: 100%;
+
+      h2 {
+        align-self: center;
+      }
+
+      p {
+        padding-bottom: 0.5rem;
+      }
+    }
+
+    .open-hours {
+      padding: 0 1rem;
+      width: 85%;
+
+      h2 {
+        text-align: center;
+      }
+    }
+  }
 }
