@@ -3,7 +3,7 @@ const dots = document.querySelectorAll('.dot');
 const next = document.querySelector('#next');
 const prev = document.querySelector('#prev');
 const auto = true;
-const intervalTime = 5000;
+const intervalTime = 8000;
 let slideInterval;
 
 const nextSlide = () => {
@@ -52,11 +52,11 @@ prev.addEventListener('click', () => {
 function currentSlide(n) {
   const current = document.querySelector('.current');
   current.classList.remove('current');
-  const activeDot = document.querySelector('.active');
-  activeDot.classList.remove('active');
+  const activeDot = document.querySelector('.active-dot');
+  activeDot.classList.remove('active-dot');
 
   slides[n].classList.add('current');
-  dots[n].classList.add('active');
+  dots[n].classList.add('active-dot');
 
   clearInterval(slideInterval);
   slideInterval = setInterval(nextSlide, intervalTime);
