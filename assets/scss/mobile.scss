@@ -1,14 +1,94 @@
 #header {
-  display: none;
+  img {
+    width: 80%;
+  }
+
+  li:not(:first-child) {
+    display: none;
+  }
+
+  li.icon {
+    display: inline;
+    font-size: 2rem;
+  }
+
+  .responsive {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.2rem;
+
+    li {
+      display: inline;
+    }
+
+    li {
+      padding-bottom: 20px;
+    }
+
+    li.icon {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+    }
+
+    .nav-button {
+      width: 110%;
+    }
+  }
 }
 #hero-slider {
-  display: none;
+  // display: none;
 }
 #delivery {
-  display: none;
+  .flex {
+    flex-direction: column;
+
+    .box {
+      width: auto;
+      padding-bottom: 10px;
+    }
+
+    .border {
+      border-right: none;
+      border-bottom: 1px solid #cccccc;
+    }
+
+    .phone {
+      font-size: 2rem;
+      justify-content: center;
+    }
+  }
 }
 #about {
-  display: none;
+  .flex {
+    flex-direction: column;
+
+    .about-restaurant {
+      padding: 20px;
+
+      h2 {
+        font-size: 24px;
+      }
+
+      p {
+        margin: 20px 0;
+        text-align: justify;
+        line-height: 1.5;
+      }
+    }
+
+    .photos {
+      align-items: center;
+      justify-content: center;
+      .left {
+        padding: 0 0 30px 0;
+      }
+
+      .right {
+        display: none;
+      }
+    }
+  }
 }
 #specials {
   display: none;
