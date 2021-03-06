@@ -16,6 +16,7 @@
       integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
       crossorigin="anonymous"
     />
+    <script defer src="script.js"></script>
     <title>Luxury Restaurant</title>
   </head>
   <body>
@@ -47,7 +48,56 @@
         </ul>
       </div>
     </section>
-    <section id="hero-slider"></section>
+    <section id="hero-slider">
+      <div>
+        <div class="slide current">
+          <div class="flex-row">
+            <div class="text-box show-text">
+              <h2>Taste your fav dish</h2>
+              <h3>from <span>luxury restaurant.</span></h3>
+              <button class="btn btn-primary show-button">Explore Menu</button>
+            </div>
+            <div class="photo show-photo">
+              <img src="./assets/images/doner-kebab.png">
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="flex-row">
+            <div class="text-box show-text">
+              <h2>Taste your fav dish</h2>
+              <h3>from <span>luxury restaurant.</span></h3>
+              <button class="btn btn-primary show-button">Explore Menu</button>
+            </div>
+            <div class="photo show-photo">
+              <img src="./assets/images/fish-barbecue.png">
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="flex-row">
+            <div class="text-box show-text">
+              <h2>Taste your fav dish</h2>
+              <h3>from <span>luxury restaurant.</span></h3>
+              <button class="btn btn-primary show-button">Explore Menu</button>
+            </div>
+            <div class="photo show-photo">
+              <img src="./assets/images/mixed-grill.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a id="prev">&#10094;</a>
+      <a id="next">&#10095;</a>
+      <div class="dots">
+        <div class="dot active-dot" onclick="currentSlide(0)"><div></div></div>
+        <div class="dot" onclick="currentSlide(1)"><div></div></div>
+        <div class="dot" onclick="currentSlide(2)"><div></div></div>
+      </div>
+      <div class="explore-logo">
+        <h3>Garanted <br />Quality</h3>
+      </div>
+    </section>
     <section id="delivery">
       <div class="container flex-row">
         <div class="box border-right">

@@ -12,6 +12,12 @@ _Photo by Victoria Shes_
 
 - https://unsplash.com/photos/wSh0Exrb62g?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 
+# Hero-slider:
+
+- https://www.hiclipart.com/free-transparent-background-png-clipart-dfgba
+- https://www.hiclipart.com/free-transparent-background-png-clipart-hbhoh
+- https://www.hiclipart.com/free-transparent-background-png-clipart-ygcdp
+
 # About-section:
 
 - https://www.pexels.com/photo/plate-of-sashimi-628776/
