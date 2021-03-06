@@ -94,7 +94,11 @@
   display: none;
 }
 #food-menu {
-  display: none;
+  // display: none;
+
+  .table {
+    flex-direction: column;
+  }
 }
 #clients {
   padding: 0 1rem;
