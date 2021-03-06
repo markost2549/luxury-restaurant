@@ -97,13 +97,24 @@
   display: none;
 }
 #clients {
-  display: none;
+  padding: 0 1rem;
 }
 #hours {
-  display: none;
+  // display: none;
+  .open-hours {
+    display: flex;
+    flex-direction: column;
+
+    .item {
+      padding: 1rem 0;
+      text-align: center;
+    }
+    .image {
+      display: none;
+    }
+  }
 }
 #footer {
-  // display: none;
   .links {
     display: flex;
     flex-direction: column;
