@@ -26,7 +26,7 @@
   }
 
   .container {
-    h2 {
+    h1 {
       font-family: utilities.$secondary-font;
       color: #fff;
       font-weight: 600;
@@ -43,7 +43,7 @@
       padding-bottom: 100px;
 
       .card {
-        margin: 0 20px;
+        margin: 0 20px 20px;
         color: #333;
         background-color: #fff;
         font-family: utilities.$primary-font;
@@ -56,7 +56,7 @@
           overflow: hidden;
 
           img {
-            height: 100%;
+            width: 100%;
           }
         }
 
@@ -95,10 +95,6 @@
               border-left: 1px solid #ddd;
               margin: 0 auto 0 20px;
               padding-left: 20px;
-            }
-
-            .price {
-              color: utilities.$primary-color;
             }
           }
         }
