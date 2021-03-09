@@ -1,4 +1,6 @@
 #header {
+  height: 10vh;
+
   img {
     width: 80%;
   }
@@ -17,9 +19,11 @@
   }
 
   .responsive {
+    background-color: #fff;
     flex-direction: column;
     align-items: flex-start;
     font-size: 1.2rem;
+    box-shadow: 0 0 0 16px #fff;
 
     li {
       display: inline;
@@ -37,11 +41,94 @@
 
     .nav-button {
       width: 110%;
+      margin-left: 20px;
     }
   }
 }
 #hero-slider {
-  display: none;
+  height: 90vh;
+
+  .flex {
+    flex-direction: column;
+
+    .text-box {
+      margin-left: 0px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      h3 {
+        font-size: 1.3rem;
+      }
+    }
+
+    @keyframes showText {
+      from {
+        left: -300px;
+        opacity: 0.1;
+      }
+      to {
+        left: 0px;
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+
+    @keyframes showButton {
+      from {
+        right: -250px;
+        opacity: 0.1;
+      }
+      to {
+        right: 0px;
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+
+    .photo {
+      margin: 20px 20px;
+      height: 250px;
+      width: 300px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    @keyframes showPhoto {
+      from {
+        bottom: -100px;
+        opacity: 0.1;
+      }
+      to {
+        bottom: 0px;
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+
+  .dots {
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
+  }
+
+  .explore-logo {
+    display: none;
+  }
+}
+#hero-slider:hover {
+  #prev,
+  #next {
+    display: none;
+  }
 }
 #delivery {
   .flex {
