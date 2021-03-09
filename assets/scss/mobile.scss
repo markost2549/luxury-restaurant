@@ -86,7 +86,6 @@
       .left {
         padding: 0 0 30px 0;
       }
-
       .right {
         display: none;
       }
@@ -94,7 +93,51 @@
   }
 }
 #specials {
-  display: none;
+  .back-image {
+    height: 230px;
+  }
+
+  .darker {
+    height: 230px;
+  }
+
+  .container {
+    .today-menu {
+      flex-direction: column;
+
+      .card {
+        width: 80%;
+
+        .photo {
+          height: 200px;
+          width: 100%;
+        }
+
+        .content {
+          text-align: center;
+
+          .delivery {
+            justify-content: space-between;
+
+            .phone {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .pizza {
+    width: 60%;
+    bottom: -25px;
+    right: 0px;
+    overflow: hidden;
+
+    img {
+      width: 104%;
+    }
+  }
 }
 #food-menu {
   // display: none;
