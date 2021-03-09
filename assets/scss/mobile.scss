@@ -3,13 +3,17 @@
     width: 80%;
   }
 
-  li:not(:first-child) {
+  li:not(:first-child, :last-child) {
     display: none;
   }
 
-  li.icon {
-    display: inline;
-    font-size: 2rem;
+  .container {
+    .navbar {
+      .icon {
+        display: inline;
+        font-size: 2rem;
+      }
+    }
   }
 
   .responsive {
