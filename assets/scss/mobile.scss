@@ -69,10 +69,9 @@
 
     .about-restaurant {
       padding: 20px;
-
-      h2 {
-        font-size: 24px;
-      }
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
       p {
         margin: 20px 0;
